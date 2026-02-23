@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm Sorry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              rose: {
+                950: '#4b0f2f',
+              },
+            },
+            fontFamily: {
+              script: ['"Pacifico"', 'cursive'],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-br from-rose-50 via-pink-100 to-rose-200 font-[Quicksand]"
+  >
+    <main
+      class="relative flex min-h-screen items-start justify-center px-4 py-8 sm:items-center sm:py-10"
+    >
+      <!-- Soft background -->
+      <div class="pointer-events-none absolute inset-0">
+        <div
+          class="absolute -left-10 top-24 h-44 w-44 rounded-full bg-rose-200/60 blur-3xl"
+        ></div>
+        <div
+          class="absolute right-0 top-0 h-60 w-60 rounded-full bg-pink-200/60 blur-3xl"
+        ></div>
+        <div
+          class="absolute bottom-0 left-10 h-52 w-52 rounded-full bg-rose-300/40 blur-3xl"
+        ></div>
+        <div class="absolute left-6 top-10 text-rose-200/70">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-10 w-10"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 3 13.027 3 10.25 3 7.322 5.294 5 8.25 5c1.62 0 3.04.774 3.997 1.987C13.71 5.774 15.13 5 16.75 5 19.706 5 22 7.322 22 10.25c0 2.778-1.688 5.11-3.989 7.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.218l-.022.012-.007.003-.003.002a.75.75 0 01-.704 0l-.003-.002z"
+            />
+          </svg>
+        </div>
+        <div class="absolute right-8 bottom-8 text-pink-300/70">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-12 w-12"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 3 13.027 3 10.25 3 7.322 5.294 5 8.25 5c1.62 0 3.04.774 3.997 1.987C13.71 5.774 15.13 5 16.75 5 19.706 5 22 7.322 22 10.25c0 2.778-1.688 5.11-3.989 7.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.218l-.022.012-.007.003-.003.002a.75.75 0 01-.704 0l-.003-.002z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <section
+        class="relative z-10 mx-auto flex max-w-4xl flex-col items-center gap-8 text-center"
+      >
+        <p class="text-xs uppercase tracking-[0.3em] text-rose-500">
+          I messed up
+        </p>
+
+        <h1
+          class="font-script text-4xl text-rose-600 drop-shadow-sm sm:text-5xl"
+        >
+          I'm so sorry
+        </h1>
+
+        <article
+          class="w-full max-w-2xl max-h-[70vh] overflow-y-auto rounded-3xl border border-white/40 bg-white/70 p-6 shadow-2xl shadow-rose-200/80 backdrop-blur-lg sm:max-h-none sm:overflow-visible sm:p-8"
+        >
+          <p
+            class="mb-4 text-left text-xs uppercase tracking-[0.25em] text-rose-400"
+          >
+            From the bottom of my heart
+          </p>
+
+          <h2
+            class="mb-4 text-left font-script text-3xl text-rose-600 sm:text-4xl"
+          >
+            Dear
+            <span class="underline decoration-rose-300 decoration-wavy"
+              >Sai</span
+            >,
+          </h2>
+
+          <div
+            class="space-y-4 text-left text-sm leading-relaxed text-rose-800 sm:text-base"
+          >
+            <p>
+              I am so sorry for saying my efforts for us were 'nonsense.' I said
+              it because I was hurt and terrified when you mentioned breaking
+              up, but it wasn't true, and it wasn't fair to say to you.
+            </p>
+            <p>
+              Caring for you has never been a waste of time. I know you are
+              feeling empty and overwhelmed with life right now, and I hate that
+              my words made things harder for you today. I'm here for you, no
+              matter what, and I just wanted to own up to my mistake.
+            </p>
+            <p>
+              I'm still figuring out how to make bawi to you, but I hope you
+              trust me when I say I love you with all my heart and every fiber
+              of my being.
+            </p>
+          </div>
+
+          <p class="mt-6 text-left font-semibold leading-relaxed text-rose-700">
+            I'm sorry, and I love you.<br />
+            <span class="font-script text-2xl text-rose-600">Toto Dave</span>
+          </p>
+
+          <div
+            class="mt-6 flex flex-wrap items-center justify-between gap-4 text-xs text-rose-400"
+          >
+            <p>I hope you can forgive me.</p>
+            <button
+              onclick="window.location.href = 'index.html';"
+              class="inline-flex items-center justify-center rounded-full border border-rose-200 bg-white/80 px-4 py-1.5 text-[11px] font-semibold text-rose-500 shadow-sm transition hover:border-rose-300 hover:bg-rose-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-200 focus-visible:ring-offset-2 focus-visible:ring-offset-rose-50"
+            >
+              Back to the Valentine
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
